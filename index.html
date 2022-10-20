@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">LISTA DE PERSONAS</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Mas</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div id="app" class="row pt-5">
+            <div class="col-md-4">
+                <div class="card-header">
+                    <h4>AGREGAR PERSONAS</h4>
+                </div>
+                <form action="" id="personas-form" class="card-body">
+                    <div class="form-group">
+                        <input type="text" id="nombre" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="apellido" class="form-control mt-3" placeholder="Apellido">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="documento" class="form-control mt-3" placeholder="N° de documento">
+                    </div>
+                    <div class="d-grid gap-2">
+                        <input type="submit" value="Registrar" class="btn btn-primary btn-block mt-3">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-8" id="personas-list">
+<!--                 <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <strong>Nombre</strong>:nombre
+                        <strong>Apellido</strong>:apellido
+                        <strong>Documento</strong>
+                        <a href="#" class="btn btn-danger" name="elminar">Eliminar</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
